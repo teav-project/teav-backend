@@ -1,4 +1,4 @@
-package jp.teav.teavbackend.project;
+package jp.teav.teavbackend.project.model;
 
 public class Project {
 
@@ -16,23 +16,11 @@ public class Project {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public String getProjectName() {
         return projectName;
     }
 
-    public void setProjectName(String projectName) {
-        this.projectName = projectName;
-    }
-
     public String getProjectOverview() {
         return projectOverview;
-    }
-
-    public void setProjectOverview(String projectOverview) {
-        this.projectOverview = projectOverview;
     }
 }
